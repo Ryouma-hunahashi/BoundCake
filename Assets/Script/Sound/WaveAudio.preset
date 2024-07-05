@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaveAudio
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: b5d781472192bc44c9d7b7fec25d8d37,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waveSmallSound
+    value: 
+    objectReference: {fileID: 8300000, guid: c1e8449bea291684f95558d1a7a0dbcb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: waveBigSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 5dd6ec141f15ed84f909ac66ef576ff8, type: 3}
+  - target: {fileID: 0}
+    propertyPath: waveExtendSound
+    value: 
+    objectReference: {fileID: 8300000, guid: fb3e5388ab142c34982c20a21e16e2bc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: waveSmallVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waveBigVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waveExtendVolume
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

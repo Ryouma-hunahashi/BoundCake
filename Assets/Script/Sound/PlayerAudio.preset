@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerAudio
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 6e0054333b2ff9c47b45f0c3fbce3251,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerWeakJumpSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 6878a3c86db51644692c7073152cbd4d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerStrongJumpSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 902cbd04fc53b1046bd7acb5910edc41, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerGrabSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 0f42591962d41b241a1885e1c1ffea27, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerSeparateSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 1f8f511b5dfedc1408a42d2cc91baf45, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerPullSound
+    value: 
+    objectReference: {fileID: 8300000, guid: f22ae3b37c5a19c40826b9d967235fe6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerDamageSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 08055aa9991797f48a16bb4f47be22a2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: playerWeakVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerStrongVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerGrabVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerSeparateVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerPullVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerDamageVolume
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

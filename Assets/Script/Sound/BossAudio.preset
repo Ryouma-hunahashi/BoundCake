@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BossAudio
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: b847cd01b0cd65e458f08982a0c5a8ad,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossCrushingSound_1
+    value: 
+    objectReference: {fileID: 8300000, guid: 282dcc3ea14779249b0c6c9e8861ea42, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossCrushingSound_2
+    value: 
+    objectReference: {fileID: 8300000, guid: 944a2552d812bd64f84b22b609cfd1d9, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossDashSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 1f7db08ba45efb349bed12ea85366227, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossStunSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 25c7eb7827759ed4b9ba7dc7ba662338, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossTearBallSound
+    value: 
+    objectReference: {fileID: 8300000, guid: daca33c9c6f452a44b23cca506da65d5, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossThrowBallSound
+    value: 
+    objectReference: {fileID: 8300000, guid: b90283814d67a4d42a5160d2da5cf026, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossFlightBallSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 39b3cd0b69d62284f8feda4e3621acbe, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossStompBallSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 95a59607ada782d4fb8007e1d9da3018, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss1_GuardSound
+    value: 
+    objectReference: {fileID: 8300000, guid: c9afbc258ce83b245927a678d3fba0a6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss1_ShieldBreakSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 5088395a8bd3aec45b42750bddc8aa87, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss1_AttackSound
+    value: 
+    objectReference: {fileID: 8300000, guid: e6c3b04c73a180949aad09360ed67c86, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss3_ExPlosionSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 754ee2da592696e41895f55954d48ab1, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss3_SpawnSound
+    value: 
+    objectReference: {fileID: 8300000, guid: ef19cc37af5a99e4b842d13489f69946, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss3_MoveSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 9cd4ce48a73807143b6a1b63104458fb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_BulletAttackSound
+    value: 
+    objectReference: {fileID: 8300000, guid: e7e3e48d5b1742240b2cc68cfd6bccbe, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_BulletHitSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 396d8b3e7d310c14ab3c2abbd87f6545, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_InvisibleStartSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 480e962c05d3dc74399022de832c050f, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_InvisibleEndSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 8682cb4d040089e4fb588b8ca97f1850, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_DummySpawnSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 167123588bf09b24db29aa521183efef, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss4_DummyDeleteSound
+    value: 
+    objectReference: {fileID: 8300000, guid: f047e41feb400e143a36b9e2f13094f3, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss5_SuperJumpSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 6022009c3c276f74884e4fb7bc6086db, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss5_SummonEnemySound
+    value: 
+    objectReference: {fileID: 8300000, guid: f61a2ce851bdd00499fbe2c27607436d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: boss5_FloorDeleteSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 706b14a40d6d67847be3a80484925d6e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: bossCrushing_1Volume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossCrushing_2Volume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossDashVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossStunVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossTearBallVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossThrowBallVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossFlightBallVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bossStompBallVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss1_GuardVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss1_ShieldBreakVolume
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss1_AttackVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss3_ExplosionVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss3_SpawnVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss3_MoveVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_BulletAttackVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_BulletHitVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_InvisibleStartVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_InvisibleEndVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_DummySpawnVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss4_DummyDeleteVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss5_SuperJumpVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss5_SummonEnemyVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: boss5_FloorDeleteVolume
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

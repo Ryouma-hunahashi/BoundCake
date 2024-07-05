@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3654397015451395641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3654397015451395586}
+  - component: {fileID: 3654397015451395645}
+  - component: {fileID: 3654397015451395644}
+  - component: {fileID: 3654397015451395647}
+  - component: {fileID: 3654397015451395646}
+  - component: {fileID: 4512433881519634580}
+  - component: {fileID: 4743322917583584095}
+  - component: {fileID: 5205040754700819447}
+  m_Layer: 0
+  m_Name: SingleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3654397015451395586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -212.41074, y: 29.163769, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3654397015451395645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68d8152422a746428e8e2c8d2a20116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getParfait:
+    top: 0
+    mid: 0
+    btm: 0
+  mapInfo: []
+--- !u!114 &3654397015451395644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b852547d5c36f1e4d9aef6178b2bf952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3654397015451395647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d0767c39d61094ead1e1a0ebf6090b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldInformation:
+  - worldName: Stage1
+    worldLock: 0
+    worldLockLog: 0
+    stageInformation:
+    - stageName: 
+      sceneName: Stage1-1master
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: Stage1-2master
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: Stage1-3master
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: Stage1-4master
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    zoomSet: 0
+    cameraZoomPos: {x: 0, y: 0, z: -200}
+  - worldName: Stage2
+    worldLock: 0
+    worldLockLog: 0
+    stageInformation:
+    - stageName: 
+      sceneName: 2-1
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    zoomSet: 0
+    cameraZoomPos: {x: 0, y: 0, z: -200}
+  - worldName: Stage3
+    worldLock: 0
+    worldLockLog: 0
+    stageInformation:
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    zoomSet: 0
+    cameraZoomPos: {x: 0, y: 0, z: -200}
+  - worldName: Stage4
+    worldLock: 0
+    worldLockLog: 0
+    stageInformation:
+    - stageName: 
+      sceneName: 4-1
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    zoomSet: 0
+    cameraZoomPos: {x: 0, y: 0, z: -200}
+  - worldName: Stage5
+    worldLock: 0
+    worldLockLog: 0
+    stageInformation:
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    - stageName: 
+      sceneName: 
+      stageLock: 0
+      parfait:
+        top: 0
+        mid: 0
+        btm: 0
+    zoomSet: 0
+    cameraZoomPos: {x: 0, y: 0, z: -200}
+--- !u!114 &3654397015451395646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbde14caa689cc74abd5fa401e232a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayFrameRate: 0
+  frameInterval: 0.5
+  frameRate: 60
+  m_fps: 0
+--- !u!114 &4512433881519634580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b95eddf98b7def45a86ec38ff316ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowVibration: 
+  stopVibration: 0
+  vibValues:
+  - vibName: weak
+    loopFrame: 45
+    leftValue: 0.2
+    rightValue: 0.2
+  - vibName: strong
+    loopFrame: 55
+    leftValue: 0.4
+    rightValue: 0.4
+  test: 0
+  testName: 
+--- !u!114 &4743322917583584095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a7d0113f8f6a774b8faf948deb111ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stagename: 
+  Canvas: {fileID: 1430512240481933106, guid: 67911c6de74e5b9409b83807ba285cf1, type: 3}
+  getParfait:
+    top: 0
+    mid: 0
+    btm: 0
+  nowWorld: 0
+  nowStage: 0
+  mapInfo: []
+  selectercheck: 0
+--- !u!114 &5205040754700819447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654397015451395641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6989ae235b4c2ff41ade63a6a0e073b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strongWaveBase: 1.4

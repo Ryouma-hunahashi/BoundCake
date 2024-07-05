@@ -1,0 +1,310 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ja' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/takum/Desktop/JGA/JGM_physics
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56092
+Successfully changed project path to: C:/Users/takum/Desktop/JGA/JGM_physics
+C:/Users/takum/Desktop/JGA/JGM_physics
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 256.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/takum/Desktop/JGA/JGM_physics/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a60)
+    Vendor:   Intel
+    VRAM:     8042 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006566 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 180.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (180ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006436 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 170.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\takum\Desktop\JGA\JGM_physics\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2653ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2325ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (170ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (991ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6104 Unused Serialized files (Serialized files now loaded: 1)
+Unloading 48 unused Assets / (1.5 MB). Loaded Objects now: 6560.
+Memory consumption went from 240.3 MB to 238.7 MB.
+Total: 23.063500 ms (FindLiveObjects: 0.838700 ms CreateObjectMapping: 0.879800 ms MarkObjects: 20.719000 ms  DeleteObjects: 0.624200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38329.692421 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3cff13ad4d9b00b5db42797fed2052') in 0.386483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.779279 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c87005c0ee8affe2e2ca82a1c903c') in 0.027674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.601306 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c901c0ffe5c498d588fe7b052bb395') in 0.024970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.990575 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76653dc382e9bf582468e6a81cf77013') in 0.068507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.877013 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ed32a2ba33b6c32f930d4a80cb10a6') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.049684 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130f414f22d3d3bb0377afaf103478d5') in 0.025736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.597071 seconds.
+  path: Assets/vfx3/Cpy_MainWave_7.vfx
+  artifactKey: Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vfx3/Cpy_MainWave_7.vfx using Guid(2e16d1b800999484288aa8674e8d143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8a194b99069658b7b7750329194ab5') in 0.022190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 437.440362 seconds.
+  path: Assets/Ground 1.prefab
+  artifactKey: Guid(c6e04d7c4ad2ebe428900afd0733d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground 1.prefab using Guid(c6e04d7c4ad2ebe428900afd0733d8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18550baf78e5eb9565c11e31120b529') in 0.109761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.193902 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(0e78d3ce8f5dc25469d45b030b7e31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(0e78d3ce8f5dc25469d45b030b7e31d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df80eb13b41637356c362ca69918987') in 0.011958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.924098 seconds.
+  path: Assets/Samples/Visual Effect Graph
+  artifactKey: Guid(1cbe65d05577b4349bd0d1e47459b380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph using Guid(1cbe65d05577b4349bd0d1e47459b380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35dae249af89664500c9efbf3e01ffa4') in 0.051804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.677605 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6
+  artifactKey: Guid(226757aab305ade4dbe025bfdbaaf94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6 using Guid(226757aab305ade4dbe025bfdbaaf94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e5fcf3f76cb41fdd9b249bffff3a29') in 0.014452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.038031 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/OutputEvent Helpers
+  artifactKey: Guid(9a3c5732ca3d0ab4c82aca594a68b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/OutputEvent Helpers using Guid(9a3c5732ca3d0ab4c82aca594a68b669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fab616e3d82c520355a7e2bccd385b') in 0.014349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1075.034765 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions
+  artifactKey: Guid(b59f8bca93f5b5349a990e55549a780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions using Guid(b59f8bca93f5b5349a990e55549a780a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df2b33b97745321b19c4ee2cb684816') in 0.017450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.598387 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures
+  artifactKey: Guid(a1eecfad4e805a244ac4c1e7a2a6e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures using Guid(a1eecfad4e805a244ac4c1e7a2a6e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eca0d597cb77a37ad7604c03050bde7') in 0.052775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.792147 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/FlowMaps
+  artifactKey: Guid(8dbea881d28056a4a8348de9f4ac7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/FlowMaps using Guid(8dbea881d28056a4a8348de9f4ac7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393837162da8cd1d05b532c4927d852a') in 0.011529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/FlowMaps/FlowMap01.png
+  artifactKey: Guid(112e0cffba3dd2240bda5998e35aaf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/FlowMaps/FlowMap01.png using Guid(112e0cffba3dd2240bda5998e35aaf66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a26c97deed5abae91206db9ae29d3fe') in 0.175013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.160907 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire
+  artifactKey: Guid(ee64380df74b2aa46bbca6a18f13be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire using Guid(ee64380df74b2aa46bbca6a18f13be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c6d2ddd72c6c049374c9c5e1d91618') in 0.011311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029876 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/Flame02-temperature_16x5_ldr.png
+  artifactKey: Guid(e0ca918fd925bf24d9bf86b197843bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/Flame02-temperature_16x5_ldr.png using Guid(e0ca918fd925bf24d9bf86b197843bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64912f86fea70ec066e2553b12cb6d53') in 0.038880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/Flame03_16x4.png
+  artifactKey: Guid(ae854e455b18c2340b4d7be766421e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/Flame03_16x4.png using Guid(ae854e455b18c2340b4d7be766421e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6537a61124b6b320fe3259451ceeba9e') in 0.058370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/SmallFlame01_15x4.png
+  artifactKey: Guid(b4b9978e1b971564db66fed7f9f7720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/SmallFlame01_15x4.png using Guid(b4b9978e1b971564db66fed7f9f7720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95b18073f836a87313b98edf46ccb24') in 0.050851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/SmallFlame01-mini_15x4.png
+  artifactKey: Guid(a7e9770d29286bc45a5e6256f85b57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Visual Effect Graph/12.1.6/VisualEffectGraph Additions/Textures/Fire/SmallFlame01-mini_15x4.png using Guid(a7e9770d29286bc45a5e6256f85b57bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2085f3b7ca3e67e33b224571950970e') in 0.109206 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
